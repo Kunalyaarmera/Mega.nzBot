@@ -9,17 +9,17 @@ else:
     log_channel = None
 
 class Config(object):
-    APP_ID = int(os.environ.get("APP_ID", 1234567))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    APP_ID = int(os.environ.get("APP_ID", 28157070))
+    API_HASH = os.environ.get("API_HASH", "9078ae3b29412c4c1220e631edc5ed77")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7493530953:AAET5or64kDVC00LEjd9FkG-n8boMTCcJ4o")
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6018348449").split())
     DOWNLOAD_LOCATION = "./NexaBots"
     IS_PUBLIC_BOT = os.environ.get("IS_PUBLIC_BOT", "False")
     LOGS_CHANNEL = log_channel
     TG_MAX_SIZE = 2040108421
     # Mega User Account
-    MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "")
-    MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD", "")
+    MEGA_EMAIL = os.environ.get("MEGA_EMAIL", "kunalhost1+test@gmail.com")
+    MEGA_PASSWORD = os.environ.get("MEGA_PASSWORD", "TetmeOf5")
 
 # Text Prints
 B_START_TEXT = """
